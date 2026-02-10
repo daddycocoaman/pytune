@@ -120,6 +120,12 @@ ipython_config.py
 .pdm-python
 .pdm-build/
 
+# uv
+#   It is generally recommended to include uv.lock in version control.
+#   This ensures reproducibility across different environments.
+#   https://docs.astral.sh/uv/
+#uv.lock
+
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
 __pypackages__/
 

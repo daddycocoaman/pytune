@@ -1,0 +1,26 @@
+[project]
+authors = [{ name = "YuyaChudo" }]
+dependencies = [
+    "colr",
+    "xmltodict",
+    "rich",
+    "roadlib",
+    "pyjwt",
+    "typer==0.21.2",
+]
+description = "Post-exploitation tool for enrolling a fake device into Intune with multiple platform support"
+license = { file = "LICENSE" }
+name = "pytune"
+readme = "README.md"
+requires-python = ">=3.9"
+version = "1.2"
+
+[project.scripts]
+pytune = "pytune.app:app"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[dependency-groups]
+dev = []
