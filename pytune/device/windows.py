@@ -33,7 +33,7 @@ class Windows(Device):
         super().__init__(
             logger, os, device_name, deviceid, uid, tenant, prt, session_key, proxy
         )
-        self.os_version = "10.0.19045.2006"
+        self.os_version = "10.0.26200.1"
         self.ssp_version = self.os_version
         self.checkin_url = (
             "https://r.manage.microsoft.com/devicegatewayproxy/cimhandler.ashx"
